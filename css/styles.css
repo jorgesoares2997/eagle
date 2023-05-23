@@ -1,0 +1,329 @@
+/* Gerais */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    margin: 0;
+}
+.container{
+    padding: 70px 0;
+}
+p,li{
+    color: #444;
+    font-size: 14px;
+}
+
+#frame{
+    background-color: #444;
+    text-align: center;
+}
+
+
+.main-btn {
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+  
+  .main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #3EC1D5;
+  }
+  .main-title{
+    color: #444;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+
+}
+.main-title::after{
+    content: '';
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+/* Eagle  */
+
+#main-eagle{
+    margin-top: 100px;
+    text-align: start;
+    background-color: #fff;
+    width: 100%;
+}
+#main-eagle p, li{
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: 32px;
+
+}
+
+#main-eagle h1{
+    font-size: 42px;
+}
+#eagle-img{
+    width: 100%;
+}
+.bone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+      
+}
+#cor{
+    background-color: #FFCE80;
+    padding: 30px;
+}
+.bone img{
+    margin-top: 50px;
+}
+.first{
+    margin-top: 60px;
+}
+
+/* Barra de navegaÃ§Ã£o  */
+header,
+.navbar{
+    background-color: #444;
+
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#logo{
+    width: 75px;
+    border-radius: 50%;
+    border: 3px solid #333;
+    color: #fff;
+    transition: .5s;
+    margin-left: 30px;
+    
+}
+
+#logo:hover{
+    border-color: #ffb133;
+    
+}
+.navbar-brand{
+    padding: 0;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+#navbar-links a{
+    color: #fff;
+    cursor: pointer;
+
+}
+.navbar-expand-lg 
+.navbar-nav
+.nav-link{
+    padding: 1rem .8rem;
+}
+.nav-item.active{
+    border-bottom: 3px solid #fff;
+}
+
+/* Call to action */
+
+#call-area{
+    background-color: #65daf9;
+    text-transform: uppercase;
+}
+#call-area .container{
+    padding: 40px 100px;
+}
+
+#call-area .row{
+    display: block;
+    text-align: center;
+}
+
+#call-area p {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn{
+    background-color: #fff;
+    color: #65daf9;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
+
+/* footer */
+
+#contact-area{
+    text-align: center;
+
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #3ec1d5;
+}
+.contact-box i {
+    color: #444;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 16px;
+}
+.contact-title a{
+    
+}
+.contact-title{
+    font-weight: bold;
+    color: #3ec1d5;
+    
+}
+
+#msg-box p{
+    font-size: 22px;
+}
+
+#contact-form input[type='text'],#contact-form input[type='email'],#contact-form textarea{
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn{
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover{
+    color: #3ec1d5;
+}
+
+/* copyright */
+
+#copy-area{
+    background-color: #f1f1f1;
+}
+#copy-area .container{
+    padding: 10px 0;
+    text-align: center;
+}
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: #444;
+    transition: .4s;
+}
+
+#copy-area .container a:hover{
+    text-decoration: none;
+    color: #a0b5c8;
+}
+
+/* Resposive  */
+/* Tablet */
+
+@media(max-width: 768px){
+
+    /* Geral */
+    .container{
+        padding: 20px 0;
+    }
+        /* news  */
+        #news-area p{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #email-input{
+            width: 70%;
+        }
+        #call-area{
+            margin-top: 30px;
+        }
+        #call-area .container{
+            padding: 30px;
+        }
+    
+        #call-area p, #call-area #call-btn{
+            font-size: 16px;
+        }
+    
+        /* Eagle  */
+        .bone img{
+          width: 50%;
+          height: 50%;
+        }
+        #eagle-body{
+            padding: 12px;
+        }
+    
+     
+        
+    }
+    /* Celular */
+@media (max-width:450px) {
+    /* about  */
+
+    .main-title{
+        font-size: 30px;
+        
+    }
+    
+
+    #news-area .main-title{
+        font-size: 24px;
+    }
+    #news-area p{
+        font-size: 16px;
+    }
+    #email-input{
+        width: 80%;
+    }
+    /* Cta  */
+    #call-area p, #call-area #call-btn{
+        font-size: 12px;
+        letter-spacing: 0;
+        margin: 0;
+        width: 50%;
+    }
+    /* contact  */
+    .contact-box{
+        border: none;
+        margin-bottom: 0;
+    }
+
+}
